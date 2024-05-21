@@ -1,4 +1,4 @@
-System Verilog Coding guidelines
+General System Verilog Coding guidelines
 
 General Coding Style
 Although bad coding style does not stop your code from working, it does make it harder for others to understand and makes 
