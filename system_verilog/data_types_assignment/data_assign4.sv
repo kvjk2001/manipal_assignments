@@ -1,7 +1,7 @@
 /************************************************************************
 Author: Mirafra Technologies Pvt Limited
         By Priya Ananthakrishnan
-Filename:	data_assign4.sv  
+Filename:	data_assign5.sv  
 Date:   	21st May 2022
 Version:	1.0
 Description: Concept of structure data type 
@@ -9,7 +9,7 @@ Description: Concept of structure data type
 //ADD_CODE: Declare the struct with name money
 //ADD_CODE: Store coins as type int and rupees as real
 
-module top;
+module data_assign5;
  //ADD_CODE: To create the instance of the structure
   initial begin
     //ADD_CODE: to Assign directvalues to the structure variables
