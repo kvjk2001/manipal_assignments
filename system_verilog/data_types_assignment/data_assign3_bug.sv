@@ -1,13 +1,13 @@
 /************************************************************************
 Author: Mirafra Technologies Pvt Limited
         By Priya Ananthakrishnan
-Filename:	data_assign1.sv  
+Filename:	data_assign3_bug.sv  
 Date:   	21st May 2022
 Version:	1.0
 Description: Concept of new assignment in dynamic array  
 ***************************************************************************/
 // Clue is the creation and assigning the size  of dynamic array 
-module dynamic_array;
+module data_assign3_bug;
   int arr[][];
   int packet = 10;
   initial 
