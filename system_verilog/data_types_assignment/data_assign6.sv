@@ -21,11 +21,15 @@ module data_assign6;
       $display("size = %0d, Number of entries = %0d of array", array.size(), array.num());
       $display("--------------------------");
 
-      if(array.exists(7)) $display("An element exists at index = 7");
-      else $display("An element doesn't exists at index = 7");
+      if(array.exists(7)) 
+        $display("An element exists at index = 7");
+      else 
+        $display("An element doesn't exists at index = 7");
 
-      if(array.exists(8)) $display("An element exists at index = 8");
-      else $display("An element doesn't exists at index = 8");
+      if(array.exists(8)) 
+        $display("An element exists at index = 8");
+      else 
+        $display("An element doesn't exists at index = 8");
 
       $display("--------------------------");
 
