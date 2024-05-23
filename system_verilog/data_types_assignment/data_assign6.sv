@@ -22,14 +22,14 @@ module data_assign6;
       $display("--------------------------");
 
       if(array.exists(7)) 
-        $display("An element exists at index = 7");
+        $display("An element exist at index = 7");
       else 
-        $display("An element doesn't exists at index = 7");
+        $display("An element doesn't exist at index = 7");
 
       if(array.exists(8)) 
-        $display("An element exists at index = 8");
+        $display("An element exist at index = 8");
       else 
-        $display("An element doesn't exists at index = 8");
+        $display("An element doesn't exist at index = 8");
 
       $display("--------------------------");
 
