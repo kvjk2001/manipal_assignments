@@ -7,14 +7,13 @@ Version:	1.0
 Description: Concept of class constructor concept and creation of Objects
 ***************************************************************************/
 class construct
-  int i
-  function new();
-    i= i+1;
-  endfunction:new
+  //ADD_CODE: Declare a variable "i" of type int 
+  //ADD_CODE: Decalre a class constructor function
+  //ADD_CODE: Increment the value of "i" by 1 inside the function
 endclass:construct
 
 module class_cons;
-  //ADD_CODE: declare the three handles c0,c1,c2 for the calss construct
+  //ADD_CODE: declare the three handles c0,c1,c2 for the calss "construct"
   initial
     begin
       //ADD_CODE: Create the Object for each handlle
