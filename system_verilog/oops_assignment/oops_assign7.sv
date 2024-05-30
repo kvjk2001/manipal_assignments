@@ -10,7 +10,7 @@ Description: Concept for handle assignments legal and illegal
 class base_class ; // base_class
 class derived_class1 extends base_class;
 class derived_class2 extends derived_class1;
-class derived_class3 extends derived_-class1;
+class derived_class3 extends derived_class1;
 //
 module class_concepts;
 initial
