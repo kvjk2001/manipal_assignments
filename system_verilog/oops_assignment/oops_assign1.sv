@@ -14,9 +14,9 @@ endclass:construct
 
 module class_cons;
   //ADD_CODE: declare the three handles c0,c1,c2 for the calss "construct"
-  initial
+initial
     begin
       //ADD_CODE: Create the Object for each handlle
-      //ADD_CODE: Display the values of i for each object
+      //ADD_CODE: Display the values of i for each object by using the class handle
   end
 endmodule:class_cons
