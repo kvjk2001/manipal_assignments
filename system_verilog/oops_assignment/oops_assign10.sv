@@ -7,31 +7,31 @@ Version:	1.0
 Description: Concept for virtual class functionality
 ***************************************************************************/
 
-virtual class A;
-  int a=10;  //HINT: we can only declare variables in Abstract class we cannot assign values 
-  int b=20;
+virtual class parent;
+  int var1=10;  //HINT: we can only declare variables in Abstract class we cannot assign values 
+  int var2=20;
   task print_val();
-    $display("a=%d,b=%d",a,b); //HINT: in Abstract class we can only declare function cannot have the body of the function
+    $display("var1=%d,var2=%d",var1,var2); //HINT: in Abstract class we can only declare function cannot have the body of the function
   endtask
 endclass
 
-class B extends A; 
+class child extends parent; 
   //ADD_CODE: Add initialisation of Abstract class variables in the derived class
-  int b = 30;
+  int var2 = 30;
   task print_val();
-    $display("a=%d,b=%d",a,b);
+    $display("var1=%d,var2=%d",var1,var2);
   endtask
 endclass
 
 program test;
 initial 
   begin
-    A a;
-    B b;
-    a = new();
-    b = new();
-    b=a;
-    a=b;
-    b.print_val();
+    parent p;
+    child c;
+    p = new();
+    c = new();
+    p=c; //Remove the illegal assignment and call the function print_val
+    c=p;
+    c.print_val();
 end
 endprogram
