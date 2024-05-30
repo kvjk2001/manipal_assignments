@@ -17,6 +17,6 @@ module class_cons;
   initial
     begin
       //ADD_CODE: Create the Object for each handlle
-      //ADD_CODE: Display the vlues of i for each object
+      //ADD_CODE: Display the values of i for each object
   end
 endmodule:class_cons
