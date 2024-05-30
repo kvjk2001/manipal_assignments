@@ -4,7 +4,7 @@ Author: Mirafra Technologies Pvt Limited
 Filename:	oops_assign1.sv  
 Date:   	22nd May 2024
 Version:	1.0
-Description: Concept of class constructor concept and creation of Objects
+Description: Concept of class constructor function and creation of Objects
 ***************************************************************************/
 class construct
   //ADD_CODE: Declare a variable "i" of type int 
