@@ -4,7 +4,7 @@ Author: Mirafra Technologies Pvt Limited
 Filename:	oops_assign1.sv  
 Date:   	30th  May 2024
 Version:	1.0
-Description: Concept of class constructor concept and creation of Objects
+Description: Concept of few copy methods in System verilog 
 ***************************************************************************/
 class copy;
   int var;
