@@ -12,6 +12,7 @@ class widget;
 endclass : widget
 
 module top;
+  
 widget q[$];
 initial
   begin
@@ -25,8 +26,8 @@ initial
         q.push_back(w);
         $display("widget id:%d, to_remove:%b", q[$].id, q[$].to_remove);
       end
-    //ADD_CODE: Write SV code to remove entries in q[$] that have to_remove bit set to 1.
-    //ADD_CODE: check if the entry for which to_remove=1 is set, and the entry is removed
-    //ADD_CODE: Display the final queue
+      //ADD_CODE: Write SV code to remove entries in q[$] that have to_remove bit set to 1.
+      //ADD_CODE: check if the entry for which to_remove=1 is set, and the entry is removed
+      //ADD_CODE: Display the final queue
   end
 endmodule
