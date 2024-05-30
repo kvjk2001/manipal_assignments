@@ -1,7 +1,7 @@
 /************************************************************************
 Author: Mirafra Technologies Pvt Limited
         By Priya Ananthakrishnan
-Filename:	oops_assign1.sv  
+Filename:	oops_assign2.sv  
 Date:   	30th  May 2024
 Version:	1.0
 Description: Concept of few copy methods in System verilog 
