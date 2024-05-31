@@ -61,11 +61,16 @@ initial
     foreach(q_int[i])
       begin
         result_queue = q_int.find_index(num) with (num ==q_int[i]);
+         
         if(result_queue.size()>1)
+          while(result_queue.size()>1)
+          begin 
           q_int.delete(result_queue[0]);
+         result_queue.delete(0);
+          end
       end
     $display("Queue after deleting the repeated values :  %p",q_int);
-
+   
     #10 $finish;
   end
 endmodule
