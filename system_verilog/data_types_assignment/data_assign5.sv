@@ -6,7 +6,7 @@ Date:   	21st May 2022
 Version:	1.0
 Description: Concept of queue methods 
 ***************************************************************************/
-// Without execution of the code diaplay the values 
+// Without execution of the code display the values 
 module queue();
 int a[$]={1,2,3}; //creation of queue
 int b[$]={4,5,6,7};
