@@ -18,7 +18,7 @@ initial
     a1 = new();
     a1.var1 = 5;
     a2 = a1; 
-    /ADD_CODE: Display the value of var in the object a1 and object a2
+    //ADD_CODE: Display the value of var in the object a1 and object a2
     //Mention the concept used in the code 
     a2 = new a1; 
     a1.var1 = 10;
