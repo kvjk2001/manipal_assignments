@@ -7,22 +7,22 @@ Version:	1.0
 Description: Concept of few copy methods in System verilog 
 ***************************************************************************/
 class copy;
-  int var;
+  int var1;
 endclass
 
 module copy_s;
 initial 
   begin
-    a a1;
-    a a2;
+    copy a1;
+    copy a2;
     a1 = new();
-    a1.i = 5;
+    a1.var1 = 5;
     a2 = a1; 
     /ADD_CODE: Display the value of var in the object a1 and object a2
     //Mention the concept used in the code 
     a2 = new a1; 
-    a1.i = 10;
-    a2.i = 20;
+    a1.var1 = 10;
+    a2.var1 = 20;
    //ADD_CODE: Display the value of var in the object a1 and object a2
    //Mention the concept used in the code 
   end 
