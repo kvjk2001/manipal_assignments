@@ -6,15 +6,15 @@ Date:   	30th  May 2024
 Version:	1.0
 Description: Concept of few copy methods in System verilog 
 ***************************************************************************/
-class copy;
+class copy_c;
   int var1;
 endclass
 
 module copy_s;
 initial 
   begin
-    copy a1;
-    copy a2;
+    copy_c a1;
+    copy_c a2;
     a1 = new();
     a1.var1 = 5;
     a2 = a1; 
