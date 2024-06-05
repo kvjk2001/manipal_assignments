@@ -1,5 +1,3 @@
-// Code your testbench here
-// or browse Examples
 function void display(int q_int_1[$]);
    $display("Size of unique queue: %0d, Unique queue: %p", q_int_1.size, q_int_1);
 endfunction
@@ -65,8 +63,11 @@ initial
         if(result_queue.size()>1)
           while(result_queue.size()>1)
           begin 
+            if(result_queue[0] <= i)
+              i = i-1;
           q_int.delete(result_queue[0]);
          result_queue.delete(0);
+            
           end
       end
     $display("Queue after deleting the repeated values :  %p",q_int);
