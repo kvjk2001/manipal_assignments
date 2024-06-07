@@ -1,4 +1,4 @@
-************************************************************************
+/************************************************************************
 Author: Mirafra Technologies Pvt Limited
         By Priya Ananthakrishnan
 Filename:	func_assign5.sv  
