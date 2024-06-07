@@ -8,7 +8,7 @@ Description: Concept of Constraint Randomization in System Verilog
 ***************************************************************************/
 class constraint_assign2;
   
-//ADD_CODE: Declare the 8bit variable as data. 
+//ADD_CODE: Declare the dynamic array as address of size 10. 
 //ADD_CODE: Write constraint for a dynamic array address of size 10 to generate even numbers.
   
 endclass:constraint_assign2 
