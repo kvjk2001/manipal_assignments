@@ -13,7 +13,7 @@ class constraint_assign3;
   
 endclass:constraint_assign3 
 module con_assin3; 
-  //ADD_CODE: Declare the handle for "class constraint_assign2" as c0.
+  //ADD_CODE: Declare the handle for "class constraint_assign3" as c0.
 initial
   begin
     //ADD_CODE: Create the Object for  handle
