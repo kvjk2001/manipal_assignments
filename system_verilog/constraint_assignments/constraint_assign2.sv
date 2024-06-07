@@ -1,7 +1,7 @@
 /************************************************************************
 Author: Mirafra Technologies Pvt Limited
         By Priya Ananthakrishnan
-Filename:	func_assign1.sv  
+Filename:	func_assign2.sv  
 Date:   	7th June 2024
 Version:	1.0
 Description: Concept of Constraint Randomization in System Verilog 
@@ -17,7 +17,7 @@ module con_assin2;
 initial
   begin
     //ADD_CODE: Create the Object for  handle
-    //ADD_CODE: Randomize the object for genrating randomize values for data which is divisible by 5
+    //ADD_CODE: Randomize the object for genrating randomize values for address with even numbers.
     //ADD_CODE: Display the values of of array address using object handel.
         
   end 
