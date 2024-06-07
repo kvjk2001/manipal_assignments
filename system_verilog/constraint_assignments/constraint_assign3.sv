@@ -8,7 +8,7 @@ Description: Concept of Constraint Randomization in System Verilog
 ***************************************************************************/
 class constraint_assign3;
   
-//ADD_CODE: Declare the 8bit variable as data. 
+//ADD_CODE: Declare the 32bit variable a. 
 //ADD_CODE: Write constraint the random variable [31:0]a such that the randomized values are always multiples of 10.
   
 endclass:constraint_assign3 
