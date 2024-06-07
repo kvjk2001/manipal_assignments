@@ -4,25 +4,21 @@ Author: Mirafra Technologies Pvt Limited
 Filename:	func_assign1.sv  
 Date:   	7th June 2024
 Version:	1.0
-Description: Concept of Caonstraint Randomization in System Verilog 
+Description: Concept of Constraint Randomization in System Verilog 
 ***************************************************************************/
 class constraint_assign1;
   
 //ADD_CODE: Declare the 8bit variable as data. 
 //ADD_CODE: Write constraint for an 8bit variable data to generate values divisible by 5.
   
-endclass
+endclass:constraint_assign1 
 module con_assin1; 
+  //ADD_CODE: Declare the handle for "class constraint_assign1" as c0.
 initial
   begin
-    //ADD_CODE: Call the function addition and pass the argument by value
-    //Return the value of the function  by using a return statement 
-    //ADD_CODE: Display the values of the result
-    
-    //ADD_CODE: Call the function addition and pass the argument by 
-    //Return the value by assigning a value to the internal variable with the same name as the function
-    //ADD_CODE: Display the values of the result
-    
-
-  end
-endmodule
+    //ADD_CODE: Create the Object for  handle
+    //ADD_CODE: Randomize the object for genrating randomize values for data which is divisible by 5
+    //ADD_CODE: Display the values of data using object handel.
+        
+  end 
+endmodule:con_assign1
