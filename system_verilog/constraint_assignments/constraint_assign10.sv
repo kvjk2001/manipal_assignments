@@ -1,7 +1,7 @@
 /************************************************************************
 Author: Mirafra Technologies Pvt Limited
-        By Priya Ananthakrishnan
-Filename:	func_assign10.sv  
+        By Meenal Sitaram Pannase
+Filename:	constraint_assign10.sv  
 Date:   	7th June 2024
 Version:	1.0
 Description: Concept of Constraint Randomization in System Verilog 
