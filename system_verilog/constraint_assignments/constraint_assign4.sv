@@ -1,7 +1,7 @@
 /************************************************************************
 Author: Mirafra Technologies Pvt Limited
-        By Priya Ananthakrishnan
-Filename:	func_assign4.sv  
+        By Meenal Sitaram Pannase
+filename:	constraint_assign4.sv  
 Date:   	7th June 2024
 Version:	1.0
 Description: Concept of Constraint Randomization in System Verilog 
@@ -12,7 +12,7 @@ class constraint_assign4;
 //ADD_CODE: Write constraint for dynamic array of randomize size between 10 to 20 to generate odd numbers.
   
 endclass:constraint_assign4
-module con_assin4; 
+module con_assign4; 
   //ADD_CODE: Declare the handle for "class constraint_assign4" as c0.
 initial
   begin
