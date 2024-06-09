@@ -1,7 +1,7 @@
 /************************************************************************
 Author: Mirafra Technologies Pvt Limited
-        By Priya Ananthakrishnan
-Filename:	func_assign1.sv  
+        By Meenal Sitaram Pannase
+Filename:	constraint_assign1.sv  
 Date:   	7th June 2024
 Version:	1.0
 Description: Concept of Constraint Randomization in System Verilog 
@@ -12,7 +12,7 @@ class constraint_assign1;
 //ADD_CODE: Write constraint for an 8bit variable data to generate values divisible by 5.
   
 endclass:constraint_assign1 
-module con_assin1; 
+module con_assign1; 
   //ADD_CODE: Declare the handle for "class constraint_assign1" as c0.
 initial
   begin
