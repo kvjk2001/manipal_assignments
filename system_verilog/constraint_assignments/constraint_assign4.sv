@@ -9,7 +9,9 @@ Description: Concept of Constraint Randomization in System Verilog
 class constraint_assign4;
   
 //ADD_CODE: Declare the 8bit variable as data. 
-//ADD_CODE: Write constraint for dynamic array of randomize size between 10 to 20 to generate odd numbers.
+//ADD_CODE: Write constraint for dynamic array of randomize size between 10 to 20 
+//ADD_CODE: Write a constraint for odd numbers in even location and even numbers in odd locations
+//Example a[0] = 1, a[2] = 19, a[3] = 18 ....         
   
 endclass:constraint_assign4
 module con_assign4; 
