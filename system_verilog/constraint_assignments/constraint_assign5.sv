@@ -10,7 +10,10 @@ class constraint_assign5;
   
 //ADD_CODE: Declare the 8bit variable as data. 
 //ADD_CODE: Write constraint  for 8 bit variable b which will generate a values between range of 100to 200.
-  
+//ADD_CODE: Declare the 8bit variable as data1. 
+//ADD_CODE: Write constraint  for 8 bit variable b which will generate a values between range of
+//100 to 200 without using unique keyword . 
+
 endclass:constraint_assign5
 module con_assin5; 
   //ADD_CODE: Declare the handle for "class constraint_assign5" as c0.
