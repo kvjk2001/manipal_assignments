@@ -8,19 +8,19 @@ Description: Concept of task without virtual
 ***************************************************************************/
 program example7;
  class Base1;
- bit [7:0] d1, d2, csum;
+  bit [7:0] d1, d2, csum;
 
- virtual function void set (bit [7:0] val1='0, bit [7:0] val2=8’hAA);
-   d1 = val1;
-   d2 = val2;
- endfunction
+   virtual function void set (bit [7:0] val1='0, bit [7:0] val2=8’hAA);
+     d1 = val1;
+     d2 = val2;
+   endfunction
 
-virtual function void calc_csum (bit [7:0] id = '0);
-   csum = d1 + d2;
- endfunction
- virtual function void show;
-   $display("base1 : data = %2h:%2h csum = %2h", d1, d2, csum);
- endfunction
+   virtual function void calc_csum (bit [7:0] id = '0);
+     csum = d1 + d2;
+   endfunction
+   virtual function void show;
+     $display("base1 : data = %2h:%2h csum = %2h", d1, d2, csum);
+   endfunction
  endclass
   
  class Ext1 extends Base1;
