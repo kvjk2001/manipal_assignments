@@ -15,12 +15,12 @@ program example7;
    d2 = val2;
  endfunction
 
- virtual function void calc_csum (bit [7:0] id = '0);
+virtual function void calc_csum (bit [7:0] id = '0);
    csum = d1 + d2;
  endfunction
-  virtual function void show;
+ virtual function void show;
    $display("base1 : data = %2h:%2h csum = %2h", d1, d2, csum);
-  endfunction
+ endfunction
  endclass
   
  class Ext1 extends Base1;
