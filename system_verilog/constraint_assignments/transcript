@@ -1,0 +1,44 @@
+# vsim -c -novopt -suppress 12110 con_assign5 
+# Start time: 23:20:47 on Jun 16,2024
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# //  Questa Sim
+# //  Version 10.6c linux Jul 25 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Refreshing /fetools/work_area/frontend/vijaykrishnan/manipal_assignments/system_verilog/constraint_assignments/work.con_assign5
+# Refreshing /fetools/work_area/frontend/vijaykrishnan/manipal_assignments/system_verilog/constraint_assignments/work.constraint_assign5_sv_unit
+# Loading sv_std.std
+# Loading work.constraint_assign5_sv_unit
+# Loading work.con_assign5
+# b = 179, b_unique: 174
+# b = 133, b_unique: 170
+# b = 191, b_unique: 130
+# b = 125, b_unique: 200
+# b = 198, b_unique: 172
+# b = 165, b_unique: 190
+# b = 149, b_unique: 141
+# b = 166, b_unique: 175
+# b = 111, b_unique: 157
+# b = 182, b_unique: 159
+# b = 136, b_unique: 180
+# b = 123, b_unique: 129
+# b = 184, b_unique: 198
+# b = 183, b_unique: 181
+# b = 105, b_unique: 178
+# b = 120, b_unique: 126
+# b = 197, b_unique: 185
+# b = 133, b_unique: 102
+# b = 151, b_unique: 167
+# b = 112, b_unique: 127
+# End time: 23:21:19 on Jun 16,2024, Elapsed time: 0:00:32
+# Errors: 0, Warnings: 1

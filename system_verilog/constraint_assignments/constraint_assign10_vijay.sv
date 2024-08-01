@@ -9,6 +9,6 @@ Description: Concept of Constraint Randomization in System Verilog
 //What is wrong with the below code? What is the correct process to write the constraint?
 Class const;
     rand bit [7:0] low, mid, high;
-    constraint Const_1 {low <mid<high;}
+    constraint Const_1 {low <mid; mid<high;}
 endclass
 
